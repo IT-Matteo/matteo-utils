@@ -15,3 +15,4 @@ com/matteo/dubbo/Constants$System.class
 com/matteo/dubbo/BaseRequest.class
 com/matteo/md5/Md5Password.class
 com/matteo/dubbo/PageRequest.class
+com/matteo/mysql/IdUser.class
