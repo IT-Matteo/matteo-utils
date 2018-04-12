@@ -47,5 +47,8 @@ public class Constants {
 
         String ES_SEARCH_VIDEO_ERROR = "1000009";
         String ES_SEARCH_VIDEO_ERROR_MSG = "ES搜索视频失败";
+
+        String ES_ADD_VIDEO_ERROR = "1000010";
+        String ES_ADD_VIDEO_ERROR_MSG = "ES添加视频失败";
     }
 }
