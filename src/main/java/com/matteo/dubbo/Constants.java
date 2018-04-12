@@ -44,5 +44,8 @@ public class Constants {
 
         String SCORE_NOT_ENOUGH = "1000008";
         String SCORE_NOT_ENOUGH_MSG = "你的积分不够咯,快去评论赚取积分吧!";
+
+        String ES_SEARCH_VIDEO_ERROR = "1000009";
+        String ES_SEARCH_VIDEO_ERROR_MSG = "ES搜索视频失败";
     }
 }
