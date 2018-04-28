@@ -8,6 +8,7 @@ com/matteo/dubbo/BaseResponse.class
 com/matteo/api/DubboDataUtils.class
 com/matteo/api/RestResponse.class
 com/matteo/dubbo/RequestUtils.class
+com/matteo/validate/ValidateUtils.class
 com/matteo/api/ErrorException.class
 com/matteo/api/ErrorCode$ApiError.class
 com/matteo/MatteoApplication.class

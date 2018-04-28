@@ -186,4 +186,8 @@ public class IdWorker {
         return String.valueOf(new IdWorker(IdUser.VIDEO.getWorkerId(), IdUser.VIDEO.getDatacenterId()).nextId());
     }
 
+    public static String CompanySqlId() {
+        return String.valueOf(new IdWorker(IdUser.COMPANY.getWorkerId(), IdUser.COMPANY.getDatacenterId()).nextId());
+    }
+
 }

@@ -21,7 +21,9 @@ import lombok.Setter;
 public enum IdUser {
     USER(1L, 1L),
     VIDEO(2L, 2L),
-    ADMIN(3L, 3L);
+    ADMIN(3L, 3L),
+    COMPANY(4L, 4L);
+
     private long workerId;
     private long datacenterId;
 
