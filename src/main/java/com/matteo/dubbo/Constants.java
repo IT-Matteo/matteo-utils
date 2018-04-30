@@ -70,5 +70,8 @@ public class Constants {
 
         String VALIDATE_CODE_SEND_MORE_ERROR = "1000016";
         String VALIDATE_CODE_SEND_MORE_ERROR_MSG = "当日验证码发送已达上限!";
+
+        String ORDER_HAVE_BUG_ERROR = "1000017";
+        String ORDER_HAVE_BUG_ERROR_MSG = "该订单您已经支付过了哦，无需重复支付!";
     }
 }
