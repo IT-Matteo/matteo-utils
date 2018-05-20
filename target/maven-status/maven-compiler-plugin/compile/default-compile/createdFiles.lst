@@ -3,6 +3,7 @@ com/matteo/api/ErrorCode.class
 com/matteo/dubbo/Constants.class
 com/matteo/api/RestResponse$ErrorMsg.class
 com/matteo/api/PageQuery.class
+com/matteo/api/HideRequest.class
 com/matteo/dubbo/PaginationSupport.class
 com/matteo/dubbo/BaseResponse.class
 com/matteo/api/DubboDataUtils.class

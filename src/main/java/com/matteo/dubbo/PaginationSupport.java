@@ -23,6 +23,7 @@ public class PaginationSupport<T> implements Serializable {
     private List<T> list;
     private Integer totalCount;
     private Integer pageSize;
+    private Integer pageCount;
 
     public PaginationSupport(List<T> list, Integer totalCount, Integer pageSize) {
         this.list = list;
