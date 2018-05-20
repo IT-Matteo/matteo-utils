@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="7670a6e9-5db9-4a05-a656-77299fd15076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/matteo/api/HideRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/matteo/api/HideLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/matteo/api/HideResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matteo/api/HideRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/matteo/api/HideRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/matteo-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/matteo-utils-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matteo/dubbo/PaginationSupport.java" afterPath="$PROJECT_DIR$/src/main/java/com/matteo/dubbo/PaginationSupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HideRequest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HideRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="468">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HideResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HideLog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -94,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/matteo/dubbo/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matteo/dubbo/PaginationSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matteo/api/HideRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/matteo/api/HideResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/matteo/api/HideLog.java" />
       </list>
     </option>
   </component>
@@ -199,6 +224,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="matteo" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matteo-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matteo-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="matteo" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="HideResponse" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="matteo-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -466,12 +501,12 @@
       <workItem from="1525070643045" duration="365000" />
       <workItem from="1525241412700" duration="1485000" />
       <workItem from="1525431573086" duration="965000" />
-      <workItem from="1526807974992" duration="740000" />
+      <workItem from="1526807974992" duration="2038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33846000" />
+    <option name="totallyTimeSpent" value="35144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1396" height="878" extended-state="6" />
@@ -644,8 +679,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="468">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matteo/api/HideLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
