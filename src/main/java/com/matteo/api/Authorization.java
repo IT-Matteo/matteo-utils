@@ -1,9 +1,11 @@
-package com.matteo.vo;
+package com.matteo.api;
+
+import java.lang.annotation.*;
 
 /**
  * *****************************************************************************
  * <p>
- * 功能名           ：com.matteo.matteo.util
+ * 功能名           ：com.matteo.api
  * 系统名           ：
  * <p>
  * *****************************************************************************
@@ -11,17 +13,16 @@ package com.matteo.vo;
  * <p>
  * Date        Name                    Reason for Change
  * ----------  ----------------------  -----------------------------------------
- * 2018/8/15      matteo                 Created
+ * 2018/10/17      matteo                 Created
  */
-public class ThreeTuple<A, B, C> extends TwoTuple<A, B> {
-    private final C c;
-
-    public ThreeTuple(A a, B b, C c) {
-        super(a, b);
-        this.c = c;
-    }
-
-    public C getC() {
-        return c;
-    }
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Authorization {
+    /**
+     * 作用
+     *
+     * @return
+     */
+    String value() default "token 验证";
 }

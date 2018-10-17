@@ -7,6 +7,7 @@ com/matteo/dubbo/RequestUtils.class
 com/matteo/api/ErrorException.class
 com/matteo/api/ErrorCode$ApiError.class
 com/matteo/vo/TwoTuple.class
+com/matteo/api/Authorization.class
 com/matteo/FilterWeiXinEmoji/FilterEmoji.class
 com/matteo/dubbo/BaseRequest.class
 com/matteo/md5/Md5Password.class
