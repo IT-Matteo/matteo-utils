@@ -26,13 +26,12 @@ public class ErrorException extends Exception {
     private String code;
     private ErrorCode errorCode;
 
-
-    ErrorException(ErrorCode errorCode) {
+    public ErrorException(ErrorCode errorCode) {
         this.code = errorCode.getCode();
         this.errorCode = errorCode;
     }
 
-    ErrorException(String code, ErrorCode errorCode) {
+    public ErrorException(String code, ErrorCode errorCode) {
         this.code = errorCode.getCode();
         this.errorCode = errorCode;
     }

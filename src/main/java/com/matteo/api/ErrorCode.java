@@ -36,5 +36,7 @@ public class ErrorCode {
         ErrorCode SYSTEM_ERROR = new ErrorCode("600000", "系统错误~请联系管理员");
         ErrorCode PARAMETER_VALIDATION_ERROR = new ErrorCode("600001", "参数验证失败");
         ErrorCode NO_RESPONSE_STATUS_ERROR = new ErrorCode("600002", "调用RPC接口无响应状态码");
+        ErrorCode TOKEN_NOT_FILL = new ErrorCode("600003", "token未填写!");
+        ErrorCode TOKEN_HAVE_EXPIRE = new ErrorCode("600003", "token已过期,请重新登录!");
     }
 }
